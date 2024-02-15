@@ -23,5 +23,5 @@ model Post {
   title String
   body  String
 
-  @@schema("public") // <-- Use default schema
+  @@schema("cms") // <-- Use cms schema
 }
